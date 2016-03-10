@@ -1,0 +1,246 @@
+/**{
+	border: 1px solid #000;
+}*/
+
+
+body{
+	margin:0;
+	font-family:sans-serif;
+	font-size:20px;
+	color: #fff;
+}
+
+.anchor-placeholder{
+	height: 30px;
+}
+/************************************/
+@keyframes text-animation {
+    from {width: 70%;}
+    to {width: 85%;}
+}
+.animated{
+	animation-name: text-animation;
+    animation-duration: 5s;	
+}
+/************************************/
+
+h3{
+	font-family:sans-serif;
+	font-size:30px;
+}
+h4{
+	font-family:sans-serif;
+	font-size:25px;
+}
+
+.bg-blue {
+	background-image: url("../128-164.jpg");
+	background-repeat: repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+.bg-gray {
+	background-image: url("../128-162.jpg");
+	background-repeat: repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+.bg-green {
+	background-image: url("../128-163.jpg");
+	background-repeat: repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
+#navbar{
+	position:fixed;
+	height: 5px;
+	width: 100vw;	
+}
+
+/************************************/
+.menu-item{
+	text-align: center;
+	display: inline-block;
+	height: 30px;
+	margin-top: 15px;
+}
+
+.menu-item a{
+	color:#FFF;
+	height: 30px;
+	line-height: 28px;
+	padding: 6px 20px;
+	text-transform: lowercase;
+}
+
+.menu-item a:link {
+	text-decoration: none;
+}
+
+.menu-item a:visited {
+	text-decoration: none;
+}
+
+.menu-item a:hover {
+	text-decoration: none;
+	border: 1px solid #FFF;
+	background-image: url("../128-164.jpg");
+	background-repeat: repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
+.menu-item a:active {
+	text-decoration: none;
+}
+
+/*****************************************/
+
+#name{
+	text-align:right;
+	margin-top: 15%;
+	margin-right: 10%;
+	font-family:sans-serif;
+	font-size:40px;
+}
+
+#slogan{
+	text-align:right;
+	margin-right: 15%;
+	font-family:sans-serif;
+	font-size:25px;
+}
+
+.contacts{
+	margin-left: 15%;
+	margin-top: 15%;
+}
+
+.contacts a{
+	font-family:sans-serif;
+	font-size:20px;
+	color:#FFF;
+	background-color:#999;
+	height: 45px;
+	width: 65px;
+	line-height: 50px;
+	padding: 6px 20px;
+	text-transform: lowercase;
+}
+
+.contacts a:link {
+	text-decoration: none;
+}
+
+.contacts a:visited {
+	text-decoration: none;
+}
+
+.contacts a:hover {
+	text-decoration: none;
+	border: 1px solid #FFF;
+}
+
+.contacts a:active {
+	text-decoration: none;
+}
+
+/********************************************/
+
+.about-head{
+	margin-top:5%;
+	margin-left:5%;
+	line-height: 10px;
+
+}
+
+.about-content{
+	display: inline-block;
+	float:left;
+	width:40%;
+	margin-top:3%;
+	margin-left:15%;
+}
+
+.about-img{
+	position: relative;
+	display: inline-block;
+	margin-top:2%;
+	margin-left:2%;
+	height:340px;
+	width:300px;
+	border-radius:50%;
+	
+
+}
+#about-img{
+	width:250px;
+	height:283px;
+	border-radius:50%;
+	position: absolute;
+	top: 10%;
+	transform: translateY(-18%);
+	left: 25%;
+	transform: translateX(-20%);
+	
+}
+/********************************************/
+#portofolio-images{
+	text-align: center;
+}
+.portofolio-image{
+	position: relative;
+	display: inline-block;
+	height:300px;
+	width:300px;
+
+	margin: 40px 10px 10px 10px;
+	
+	background-image: url("../128-164.jpg");
+	background-repeat: repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+.portofolio-img{
+	height:280px;
+	width:280px;
+	position: absolute;
+	top: 10px;
+	
+	left: 50%;
+	transform: translateX(-50%);
+	
+
+}
+/********************************************/
+.section{
+	height: 100vh;
+}
+
+#section1{
+	background-image: url("../128-163.jpg");
+	background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+#section2{
+	background-image: url("../128-162.jpg");
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+#section3{
+	background-image: url("../128-163.jpg");
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+#section4{
+	background-image: url("../128-162.jpg");
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+/************************************/
+
