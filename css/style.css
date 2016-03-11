@@ -1,6 +1,6 @@
-/**{
+*{
 	border: 1px solid #000;
-}*/
+}
 
 
 body{
@@ -179,23 +179,30 @@ h4{
 	height:283px;
 	border-radius:50%;
 	position: absolute;
-	top: 10%;
-	transform: translateY(-18%);
-	left: 25%;
-	transform: translateX(-20%);
+	top: 9%;
+	left: 8%;
+	/*transform: translateX(-24%);*/
 	
 }
 /********************************************/
+
+.portofolio-head{
+	text-align: center;
+	margin-top: 5%;
+}
+
 #portofolio-images{
 	text-align: center;
+	margin: 10% 10px 10px 10px;
 }
+
 .portofolio-image{
 	position: relative;
 	display: inline-block;
 	height:300px;
 	width:300px;
-
-	margin: 40px 10px 10px 10px;
+	
+	margin: 10px 10px 10px 10px;
 	
 	background-image: url("../128-164.jpg");
 	background-repeat: repeat;
