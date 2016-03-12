@@ -193,7 +193,7 @@ h4{
 
 #portofolio-images{
 	text-align: center;
-	margin: 10% 10px 10px 10px;
+	margin: 5vh 10px 10px 10px;
 }
 
 .portofolio-image{
@@ -201,13 +201,9 @@ h4{
 	display: inline-block;
 	height:300px;
 	width:300px;
-	
+
 	margin: 10px 10px 10px 10px;
-	
-	background-image: url("../128-164.jpg");
-	background-repeat: repeat;
-	background-position: right top;
-	background-attachment: fixed;
+
 }
 .portofolio-img{
 	height:280px;

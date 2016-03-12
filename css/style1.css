@@ -1,0 +1,167 @@
+﻿*{
+	border: 1px solid #000;
+}
+
+body{
+	margin:0;
+	font-family:sans-serif;
+	font-size:20px;
+}
+
+h1{
+	font-size:40px;
+}
+h2{
+	font-size:30px;
+}
+h3{
+	font-size:25px;
+}
+p{
+	
+}
+ul{
+	
+}
+li{
+	
+}
+
+.bg-blue {
+	background-image: url("../128-164.jpg");
+	background-repeat: repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+.bg-brown {
+	background-image: url("../128-162.jpg");
+	background-repeat: repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+.bg-green {
+	background-image: url("../128-163.jpg");
+	background-repeat: repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
+.anchor-placeholder{
+	height: 30px;
+}
+
+#navbar{
+	position:fixed;
+	height: 5px;
+	width: 100vw;
+}
+
+.button{
+	text-align: center;
+	display: inline-block;
+	height: 30px;
+	margin-top: 15px;
+	text-decoration: none;
+}
+
+.button a{
+	color:#888;
+	height: 30px;
+	line-height: 28px;
+	padding: 6px 20px;
+	text-transform: lowercase;
+}
+
+.button a:link {
+	text-decoration: none;
+}
+
+.button a:visited {
+	text-decoration: none;
+}
+
+button a:hover {
+	text-decoration: none;
+	border: 1px solid #FFF;
+	background-image: url("../128-164.jpg");
+	background-repeat: repeat;
+	background-position: right top;
+	background-attachment: fixed;
+}
+
+
+.section{
+	height: 100vh;
+}
+
+.title{
+	
+}
+
+
+.contacts{
+	
+}
+.block-v{
+
+
+}
+.block-h{
+	width:50px;
+}
+
+.left12{
+	width: 45vw;
+	float: left;
+}
+.right12{
+	width: 45vw;
+	float: right;
+}
+
+.text-content{
+	
+}
+
+.about-img-border{
+	
+	height:340px;
+	width:300px;
+	
+	border-radius:50%;
+	
+	/*position: relative;
+	
+	display: inline-block;
+	margin-top:2%;
+	margin-left:2%;*/
+
+}
+.about-img{
+	
+	position: relative;
+	display: inline-block;
+	height:283px;
+	width:250px;
+	
+	border-radius:50%;
+	margin-top: 30px;
+	margin-left:25px;
+	
+	/*position: absolute;
+	
+	top: 9%;
+	left: 8%;*/
+}
+
+.portofolio-img-block{
+	
+}
+.portofolio-img-border{
+	
+}
+.portofolio-img{
+	
+}
+
+
